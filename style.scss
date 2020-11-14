@@ -38,6 +38,8 @@ a{
   border-radius: 3px;
 }
 
+//Navbar
+
 .navbar .container{
   margin: 4rem auto;
   justify-content: space-between;
@@ -53,6 +55,8 @@ a{
     }
   }
 }
+
+// Header
 
 .main-content{
   margin-bottom: 10rem;
@@ -94,6 +98,8 @@ a{
     }
   }
 }
+
+// Who + TestimonialSection
 
 section{
   .svg-mobile{
@@ -174,6 +180,8 @@ section{
   }
 }
 
+// Call To Action Section
+
 .CTA-Section{
   background-color: $Desaturated-Blue;
   color: #fff;
@@ -208,6 +216,8 @@ section{
     }
   }
 }
+
+// Footer
 
 footer{
   background-color: $Very-Dark-Blue;
