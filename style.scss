@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+$Very-Dark-Blue: hsl(243, 87%, 12%);
+$Desaturated-Blue: hsl(238, 22%, 44%);
+$Bright-Blue: hsl(224, 93%, 58%);
+$Moderate-Cyan: hsl(170, 45%, 43%);
+$Light-Grayish-Blue: hsl(240, 75%, 98%);
+$Light-Gray: hsl(0, 0%, 75%);
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  // font-family: 'Raleway', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.container{
+  width: 1200px;
+  max-width: 100%;
+  margin: 0 auto;
+  display: flex;
+}
+
+a{
+  text-decoration: none;
+}
+
+.Btn{
+  background-color: $Bright-Blue;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+}
+
+.navbar .container{
+  margin: 4rem auto;
+  justify-content: space-between;
+  align-items: space-between;
+  .list{
+    display: flex;
+    li{
+      list-style: none;
+      padding-left: 4rem;
+      a{
+        color: $Very-Dark-Blue;
+      }
+    }
+  }
+}
+
+.main-content{
+  margin-bottom: 10rem;
+  .container{
+    justify-content: center;
+    align-items: center;
+    .content{
+      flex: 1;
+      h1{
+        color: $Very-Dark-Blue;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 700;
+        font-size: 38px;
+        margin-bottom: 1rem;
+        line-height: 3rem;
+      }
+      p{
+        font-size: 18px;
+        margin-bottom: 1.5rem;
+      }
+      .form{
+        input{
+          width: 320px;
+          padding: 10px;
+          border-radius: 3px;
+          border: 1px solid $Light-Gray;
+        }
+        button{
+          padding: 12px 60px;
+          margin-left: 1rem;
+        }
+      }
+    }
+    .illustration{
+      flex: 1;
+      img{
+        width: 100%;
+      }
+    }
+  }
+}
+
+section{
+  .svg-mobile{
+    display: none;
+  }
+  .bg-curve{
+    margin-bottom: -.3rem;
+    img{
+      width: 100%;
+  }
+  }
+  .main{
+    background-color:#F8F8FE ;
+    .container{
+      padding: 6rem 0;
+      .section-content{
+        flex: 1;
+        h1{
+          color: $Very-Dark-Blue;
+          font-family: 'Raleway', sans-serif;
+          font-weight: 700;
+          font-size: 34px;
+          margin-bottom: 1.5rem;
+          line-height: 3rem;
+        }
+        p{
+          width: 460px;
+          font-size: 14px;
+          margin-bottom: 1rem;
+        }
+        a{
+          color: $Moderate-Cyan;
+          padding-bottom: 3px;
+          border-bottom: 1px solid $Moderate-Cyan;
+          span{
+            position: relative;
+            top: 4px;
+          }
+        }
+        .testimonial{
+          width: 330px;
+          padding: 15px 20px;
+          margin-top: 3rem;
+          background-color: #fff;
+          border-radius: 5px;
+          box-shadow: 0px 0px 10px 1px rgba($color: #000000, $alpha: 0.2);
+          overflow: hidden;
+          p{
+            width: 300px;
+            font-size: 14px;
+          }
+          .client{
+            display: flex;
+            .client-img{
+              width: 35px;
+              height: 35px;
+              border-radius: 50%;
+              margin-right: 8px;
+            }
+            .client-info{
+              h5{
+                font-weight: 700;
+              }
+              p{
+                font-size: 10px;
+              }
+            }
+          }
+        }
+      }
+      .illustration{
+        flex: 1;
+        img{
+          width: 90%;
+        }
+      }
+    }
+  }
+}
+
+.CTA-Section{
+  background-color: $Desaturated-Blue;
+  color: #fff;
+  padding: 5rem 0;
+  .container{
+    .CTA{
+      display: flex;
+      gap: 11rem;
+      .CTA-content{
+        flex: 1;
+        h1{
+          margin-bottom: 1rem;
+        }
+      }
+      .CTA-form{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        input{
+          margin-top: .5rem;
+          width: 90%;
+          padding: 10px 15px;
+          border-radius: 3px;
+          border: 1px solid $Light-Gray;
+        }
+        button{
+          align-self: start;
+          padding: 12px 30px;
+          margin-top: 1rem;
+        }
+      }
+    }
+  }
+}
+
+footer{
+  background-color: $Very-Dark-Blue;
+  color: $Light-Grayish-Blue;
+  padding: 5rem 0;
+  .container{
+    justify-content: space-between;
+    .logo-contact{
+      .phone, .email{
+        margin-top: 1rem;
+        img{
+          margin-right: 1rem;
+        }
+        p{
+          display: inline-flex;
+        }
+      }
+    }
+    .about-us, .contact-us{
+      margin-top: 3.5rem;
+      ul{
+        li{
+          list-style: none;
+          margin-top: 1rem;
+          a{
+            color: $Light-Grayish-Blue;
+          }
+        }
+      }
+    }
+    .social{
+      margin-top: 5rem;
+      margin-right: 2rem;
+      a{
+        margin-right: 1rem;
+        width: 30px;
+        height: 30px;
+        padding: 8px 0;
+        border: 1px solid $Light-Grayish-Blue;
+        border-radius: 50%;
+        color: $Light-Grayish-Blue;
+        text-align: center;
+        i{
+          width: 40px;
+        }
+      }
+    }
+  }
+}
