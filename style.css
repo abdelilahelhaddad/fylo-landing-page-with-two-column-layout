@@ -321,4 +321,180 @@ footer .container .social a {
 footer .container .social a i {
   width: 40px;
 }
+
+@media (max-width: 375px) {
+  .container {
+    width: 375px;
+    padding: 0 20px;
+  }
+  .navbar .container {
+    margin: 1rem auto;
+    margin-bottom: 3rem;
+    -webkit-box-align: flex start;
+        -ms-flex-align: flex start;
+            align-items: flex start;
+  }
+  .navbar .container .logo {
+    margin-right: -33px;
+  }
+  .navbar .container .logo img {
+    width: 61%;
+  }
+  .navbar .container .list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-right: 1rem;
+  }
+  .navbar .container .list li {
+    padding-left: 1rem;
+  }
+  .navbar .container .list li a {
+    font-size: 14px;
+  }
+  .main-content {
+    margin-bottom: 5rem;
+  }
+  .main-content .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .main-content .container .content {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    text-align: center;
+  }
+  .main-content .container .content h1 {
+    font-size: 26px;
+    margin-bottom: 1.5rem;
+    line-height: 2.5rem;
+  }
+  .main-content .container .content p {
+    padding: 0 5px;
+    font-size: 15px;
+    margin-bottom: 2rem;
+  }
+  .main-content .container .content .form input {
+    margin-bottom: 1rem;
+    border: 1px solid #585989;
+  }
+  .main-content .container .content .form button {
+    width: 320px;
+    margin-left: 0rem;
+  }
+  .main-content .container .illustration {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    margin: 3rem auto;
+  }
+  .main-content .container .illustration img {
+    width: 95%;
+  }
+  section .svg-desktop {
+    display: none;
+  }
+  section .svg-mobile {
+    display: block;
+  }
+  section .bg-curve {
+    margin-bottom: -.3rem;
+  }
+  section .bg-curve img {
+    width: 100%;
+  }
+  section .main {
+    background-color: #F8F8FE;
+  }
+  section .main .container {
+    padding: 3rem 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  section .main .container .section-content {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin-bottom: 2rem;
+  }
+  section .main .container .section-content h1 {
+    font-size: 18px;
+    margin-bottom: 1rem;
+  }
+  section .main .container .section-content p {
+    width: 100%;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    text-align: left;
+  }
+  section .main .container .section-content .testimonial {
+    text-align: left;
+  }
+  section .main .container .illustration {
+    margin-bottom: 4rem;
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+  }
+  section .main .container .illustration img {
+    width: 100%;
+  }
+  .CTA-Section {
+    padding: 4rem 0;
+  }
+  .CTA-Section .container {
+    text-align: center;
+  }
+  .CTA-Section .container .CTA {
+    gap: 1.5rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .CTA-Section .container .CTA .CTA-content p {
+    font-size: 17px;
+  }
+  .CTA-Section .container .CTA .CTA-form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .CTA-Section .container .CTA .CTA-form input {
+    width: 100%;
+  }
+  .CTA-Section .container .CTA .CTA-form button {
+    margin-top: .7rem;
+    width: 100%;
+  }
+  footer {
+    padding: 5rem 20px;
+  }
+  footer .container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  footer .container .logo-contact .logo-footer {
+    margin-bottom: 2rem;
+  }
+  footer .container .social {
+    margin-right: 0rem;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
 /*# sourceMappingURL=style.css.map */

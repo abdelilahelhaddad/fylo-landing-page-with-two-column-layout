@@ -267,3 +267,172 @@ footer{
     }
   }
 }
+
+@media (max-width:375px){
+
+.container{
+    width: 375px;
+    padding: 0 20px;
+}
+
+.navbar .container{
+  margin: 1rem auto;
+  margin-bottom: 3rem;
+  align-items: flex start;
+  // justify-content: flex-start;
+  .logo{
+    margin-right: -33px;
+    img{
+      width: 61%;
+    }
+  }
+  .list{
+    display: flex;
+    margin-right: 1rem;
+    li{
+      padding-left: 1rem;
+      a{
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+// Header
+
+.main-content{
+  margin-bottom: 5rem;
+  .container{
+    flex-direction: column;
+    .content{
+      order: 2;
+      text-align: center;
+      h1{
+        font-size: 26px;
+        margin-bottom: 1.5rem;
+        line-height: 2.5rem;
+      }
+      p{
+        padding: 0 5px;
+        font-size: 15px;
+        margin-bottom: 2rem;
+      }
+      .form{
+        input{
+          margin-bottom: 1rem;
+          border: 1px solid $Desaturated-Blue;
+        }
+        button{
+          width: 320px;
+          margin-left: 0rem;
+        }
+      }
+    }
+    .illustration{
+      order: 1;
+      margin: 3rem auto;
+      img{
+        width: 95%;
+      }
+    }
+  }
+}
+
+// Who + TestimonialSection
+
+section{
+  .svg-desktop{
+    display: none;
+  }
+  .svg-mobile{
+    display: block;
+  }
+
+  .bg-curve{
+    margin-bottom: -.3rem;
+    img{
+      width: 100%;
+  }
+  }
+  .main{
+    background-color:#F8F8FE ;
+    .container{
+      padding: 3rem 20px;
+      flex-direction: column;
+      text-align: center;
+      .section-content{
+        order: 2;
+        margin-bottom: 2rem;
+        h1{
+          font-size: 18px;
+          margin-bottom: 1rem;
+        }
+        p{
+          width: 100%;
+          font-size: 15px;
+          margin-bottom: 1rem;
+          text-align: left;
+        }
+        .testimonial{
+          text-align: left;                 
+        }
+      }
+      .illustration{
+        margin-bottom: 4rem;
+        order: 1;
+        img{
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+// Call To Action Section
+
+.CTA-Section{
+  padding: 4rem 0;
+  .container{
+    text-align: center;
+    .CTA{
+      gap: 1.5rem;
+      flex-direction: column;
+      .CTA-content{
+        p{
+          font-size: 17px;
+        }
+      }
+      .CTA-form{
+        flex-direction: column;
+        width: 80%;
+        align-self: center;
+        input{
+          width: 100%;
+        }
+        button{
+          margin-top: .7rem;
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+// Footer
+
+footer{
+  padding: 5rem 20px;
+  .container{
+    flex-direction: column;
+    .logo-contact{
+      .logo-footer{
+        margin-bottom: 2rem;
+      }
+    }
+    .social{
+      margin-right: 0rem;
+      align-self: center;  
+    }
+  }
+}
+}
